@@ -1,0 +1,4 @@
+entityDef weapon_null
+{
+    "weapon_scriptobject"		"weapon_null"
+}

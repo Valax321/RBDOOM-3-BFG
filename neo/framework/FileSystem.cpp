@@ -1045,6 +1045,8 @@ void idFileSystemLocal::BuildOrderedStartupContainer()
 	}
 	FreeFileList( fl );
 	
+	//FIXME: this needs changing when we pack
+
 	orderedFiles.Append( "script/doom_main.script" );
 	orderedFiles.Append( "script/doom_defs.script" );
 	orderedFiles.Append( "script/doom_defs.script" );

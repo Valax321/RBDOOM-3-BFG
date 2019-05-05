@@ -7,11 +7,7 @@
 //
 // Generated from the TEXTINCLUDE 2 resource.
 //
-#if defined(USE_MFC_TOOLS)
 #include "afxres.h"
-#else
-#include <winresrc.h>
-#endif
 
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
@@ -58,6 +54,7 @@ END
 // remains consistent on all systems.
 IDI_ICON1               ICON                    "res\\doom.ico"
 
+
 /////////////////////////////////////////////////////////////////////////////
 //
 // Version
@@ -80,13 +77,13 @@ BEGIN
     BEGIN
         BLOCK "040904b0"
         BEGIN
-            VALUE "CompanyName", "id Software LLC, a ZeniMax Media company"
-            VALUE "FileDescription", "DOOM 3: BFG Edition"
+            VALUE "CompanyName", "While False Studios"
+            VALUE "FileDescription", "Walking Simulator"
             VALUE "FileVersion", "1.0.0.1"
-            VALUE "InternalName", "Doom3BFG"
-            VALUE "LegalCopyright", "© 1993-2012 id Software LLC, a ZeniMax Media company"
-            VALUE "OriginalFilename", "Doom3BFG"
-            VALUE "ProductName", "DOOM® 3: BFG Edition™"
+            VALUE "InternalName", "WalkingSimulator"
+            VALUE "LegalCopyright", "© 2019 While False Studios"
+            VALUE "OriginalFilename", "WalkingSimulator"
+            VALUE "ProductName", "Walking Simulator"
             VALUE "ProductVersion", "1.0.0.1"
         END
     END

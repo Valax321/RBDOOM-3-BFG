@@ -1,0 +1,44 @@
+model model_player {
+      // mesh                    "models/joint.md5mesh" // TODO!
+}
+
+entityDef player_doommarine {
+   "spawnclass"   "idPlayer"
+   "scriptobject" "player"
+
+   "hud"                "guis/hud.gui"
+   "def_weapon0"		"weapon_null"
+   "def_weapon1"		"weapon_null"
+
+   "bone_hips"	  "Legs"
+   "bone_chest"	  "Torso"
+   "bone_head"	  "Head"
+   
+   "model"	"model_player"
+
+    "pm_jumpheight"						"48"
+    "pm_stepsize"						"16"
+    "pm_crouchspeed"					"100"
+    "pm_walkspeed"						"175"
+    "pm_runspeed"						"275"
+    "pm_noclipspeed"					"300"
+    "pm_minviewpitch"					"-89"	// looking up
+    "pm_maxviewpitch"					"89"	// looking down
+    "pm_stamina"						"24"
+    "pm_staminathreshold"				"4"
+    "pm_staminarate"					"0.75"
+    "pm_crouchheight"					"38"
+    "pm_crouchviewheight"				"32"
+    "pm_normalheight"					"74"
+    "pm_normalviewheight"				"68"
+    "pm_deadheight"						"20"
+    "pm_deadviewheight"					"10"
+    "pm_crouchrate"						"0.87"
+    "pm_bboxwidth"						"32"
+
+   "snd_footstep" "player_sounds_footstep"
+}
+
+entityDef player_doommarine_mp {
+  "inherit" "player_doommarine"
+}

@@ -1,0 +1,22 @@
+object weapon_flashlight_new : weapon_base
+{
+    void init();
+
+    void Idle();
+    void Raise();
+};
+
+void weapon_flashlight_new::init()
+{
+    weaponState("Raise", 0);
+}
+
+void weapon_flashlight_new::Idle()
+{
+
+}
+
+void weapon_flashlight_new::Raise()
+{
+    
+}

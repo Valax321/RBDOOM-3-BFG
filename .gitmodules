@@ -1,0 +1,3 @@
+[submodule "BFGFontTool"]
+	path = BFGFontTool
+	url = https://github.com/Zbyl/BFGFontTool.git

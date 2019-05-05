@@ -1,0 +1,22 @@
+object weapon_null : weapon_base
+{
+    void init();
+
+    void Idle();
+    void Raise();
+};
+
+void weapon_null::init()
+{
+    weaponState("Raise", 0);
+}
+
+void weapon_null::Idle()
+{
+
+}
+
+void weapon_null::Raise()
+{
+    
+}

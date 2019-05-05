@@ -1524,7 +1524,7 @@ else()
 		add_dependencies(precomp_header_rbdoom3bfg idlib)
 	endif()
 	
-	add_executable(RBDoom3BFG WIN32 ${RBDOOM3_SOURCES})
+	add_executable(RBDoom3BFG WIN32 ${RBDOOM3_SOURCES})	
 
 	if (USE_PRECOMPILED_HEADERS)
 		# make sure precompiled header is created before executable is compiled
@@ -1556,3 +1556,5 @@ else()
 	endif()
     
 endif()
+
+set_target_properties(RBDoom3BFG PROPERTIES OUTPUT_NAME WalkingSimulator VS_DEBUGGER_WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}/../)

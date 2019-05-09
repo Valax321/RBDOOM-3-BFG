@@ -2,7 +2,7 @@ build*
 eclipse*
 neo/ipch
 
-Doom3BFG.exe
+WalkingSimulator.exe
 base/_common.crc
 base/_common.resources
 base/_ordered.crc
@@ -22,10 +22,6 @@ base/joy_360_0.cfg
 base/joy_360_1.cfg
 base/joy_lefty.cfg
 base/joy_righty.cfg
-base/maps/
-base/sound/
-base/strings/
-base/video/
 base/wads/
 
 GPATH

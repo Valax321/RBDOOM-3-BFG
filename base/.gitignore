@@ -4,3 +4,6 @@
 *.blend2
 generated/*
 .vscode/
+*_autosave.map
+*.darkradiant
+*.bak

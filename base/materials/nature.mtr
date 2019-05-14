@@ -1,0 +1,8 @@
+textures/nature/sand001
+{
+    noShadows
+    noSelfShadow // Gives it a flat look
+    qer_editorimage textures/nature/Sand001_diffuse.tga
+    diffusemap textures/nature/Sand001_diffuse.tga
+    specularmap textures/nature/Sand001_specular.tga
+}

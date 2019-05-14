@@ -2,8 +2,8 @@ Version 2
 // entity 0
 {
 "classname" "worldspawn"
-"editor_drLastCameraPos" "22.6743 -39.5088 105.184"
-"editor_drLastCameraAngle" "40.2 313.293 0"
+"editor_drLastCameraPos" "35.508 -210.36 167.839"
+"editor_drLastCameraAngle" "-35.1 46.593 0"
 // primitive 0
 {
 brushDef3
@@ -313,10 +313,11 @@ brushDef3
 {
 "classname" "light"
 "name" "light_1"
-"color" "0.925 0.992 0.992"
-"light_center" "0 0 30"
-"light_radius" "200 224 200"
-"origin" "128 -160 128"
+"light_center" "0 0 0"
+"light_radius" "360 360 352"
+"origin" "144 -160 128"
+"light" "50"
+"_color" "0.788 0.761 0.655"
 }
 // entity 2
 {

@@ -1,0 +1,47 @@
+lights/defaultPointLight
+{
+    lightFalloffImage makeintensity(lights/dummy_lighta.tga)
+    {
+        forceHighQuality
+        map lights/dummy_light.tga
+        colored
+        zeroClamp
+    }
+}
+
+lights/skyLight
+{
+	lightFalloffImage makeintensity(lights/dummy_lighta.tga)
+	{
+		forceHighQuality
+		map lights/sky_light.tga
+		colored
+		zeroClamp
+	}
+}
+
+lights/defaultProjectedLight
+{
+  	lightFalloffImage	_noFalloff
+  	{
+    		forceHighQuality
+    		map lights/dummy_light.tga
+    		colored
+    		zeroClamp
+  	}
+}
+
+
+// an ambient light will do non-directional bump mapping, and won't have specular lighting
+// or shadows
+lights/ambientLight
+{
+  	ambientLight
+  	lightFalloffImage	makeintensity( lights/dummy_lighta.tga )
+  	{
+    		forceHighQuality
+    		map lights/dummy_light.tga
+    		colored
+    		zeroClamp
+  	}
+}

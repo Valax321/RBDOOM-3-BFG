@@ -31,3 +31,5 @@ GTAGS
 HTML/
 neo/.kdev4
 neo/neo.kdev4
+
+**/.autosave/*

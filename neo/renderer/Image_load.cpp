@@ -136,7 +136,7 @@ ID_INLINE void idImage::DeriveOpts()
 				opts.format = FMT_DXT1;
 				opts.colorFormat = CFM_DEFAULT;
 				break;
-			case TD_DEFAULT:
+			case TD_DEFAULT: //FIXME: is this what skyboxes get classed as?
 				opts.gammaMips = true;
 				opts.format = FMT_DXT5;
 				opts.colorFormat = CFM_DEFAULT;
@@ -155,7 +155,7 @@ ID_INLINE void idImage::DeriveOpts()
 				// RB: TODO check binary format version
 				// D3 BFG assets require RGB565 but it introduces color banding
 				// mods would prefer FMT_RGBA8
-				opts.format = FMT_RGB565; //FMT_RGBA8;
+				opts.format = FMT_RGBA8; //FMT_RGBA8; FMT_RGB565
 				opts.gammaMips = true;
 				break;
 			case TD_LOOKUP_TABLE_MONO:

@@ -1,0 +1,15 @@
+textures/sky01
+{
+    qer_editorimage textures/sky/sky01_side.tga
+    noFragment
+    noshadows
+    nooverlays
+    forceOpaque
+    {
+        forceHighQuality
+        blend add
+        cameraCubeMap env/sky01
+        texgen skybox
+        texgen wobblesky .0 .0 .0
+    }
+}

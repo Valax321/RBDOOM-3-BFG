@@ -2,7 +2,7 @@ player_sounds_footstep
 {
     minDistance 1
     maxDistance 32
-    volume 0
+    volume 1
     no_dups
 
     sound/steps/concrete001.wav

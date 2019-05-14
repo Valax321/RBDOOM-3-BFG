@@ -1,0 +1,14 @@
+player_sounds_footstep
+{
+    minDistance 1
+    maxDistance 32
+    volume 0
+    no_dups
+
+    sound/steps/concrete001.wav
+    sound/steps/concrete002.wav
+    sound/steps/concrete003.wav
+    sound/steps/concrete004.wav
+    sound/steps/concrete005.wav
+    sound/steps/concrete006.wav
+}

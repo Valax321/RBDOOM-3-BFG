@@ -10,6 +10,7 @@
   "#str_04351"		"Menu Initialization.."
   
   "#str_07186"		"Unknown"
-   // FIXME: the next string should be changed according to game, I guess
-  "#str_07212"		"dhewm3"
+
+  // WALKING SIMULATOR
+  "#str_dlg_pc_saving" "Saving..."
 }

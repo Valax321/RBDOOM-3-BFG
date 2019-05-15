@@ -2,8 +2,8 @@ Version 2
 // entity 0
 {
 "classname" "worldspawn"
-"editor_drLastCameraPos" "-300.512 207.625 22.4257"
-"editor_drLastCameraAngle" "-9.3 282 0"
+"editor_drLastCameraPos" "-550.952 195.046 167.855"
+"editor_drLastCameraAngle" "14.7 337.2 0"
 // primitive 0
 {
 patchDef2
@@ -262,6 +262,90 @@ brushDef3
 ( 0 1 0 92 ) ( ( 0.0078125 0 510.03125 ) ( 0 0.0078125 0 ) ) "textures/concrete/concrete001" 0 0 0
 }
 }
+// primitive 20
+{
+brushDef3
+{
+( 0 1 0 -2420 ) ( ( 0.0625 0 3.75 ) ( 0 0.0625 63 ) ) "textures/common/caulk" 0 0 0
+( 1 0 0 1280 ) ( ( 0.0625 0 55.75 ) ( 0 0.0625 14.5 ) ) "textures/common/caulk" 0 0 0
+( 0 0 -1 -2392 ) ( ( 0.0625 0 46.75 ) ( 0 0.0625 60 ) ) "textures/common/caulk" 0 0 0
+( 0 -1 0 500 ) ( ( 0.0625 0 7.25 ) ( 0 0.0625 14.5 ) ) "textures/common/caulk" 0 0 0
+( -1 0 0 -3504 ) ( ( 0.0625 0 16.5 ) ( 0 0.0625 14.5 ) ) "textures/common/caulk" 0 0 0
+( 0 0 1 2328 ) ( ( 0.0625 0 47.75 ) ( 0 0.0625 35 ) ) "textures/common/caulk" 0 0 0
+}
+}
+// primitive 21
+{
+brushDef3
+{
+( 0 0 1 2088 ) ( ( 0.00390625 0 5.15625 ) ( 0 0.00390625 1016.234375 ) ) "textures/concrete/concrete001" 0 0 0
+( 0 1 0 -1264 ) ( ( 0.00390625 0 7.765625 ) ( 0 0.00390625 11.0625 ) ) "textures/concrete/concrete001" 0 0 0
+( 1 0 0 1756 ) ( ( 0.00390625 0 5.15625 ) ( 0 0.00390625 11.0625 ) ) "textures/concrete/concrete001" 0 0 0
+( 0 0 -1 -2296 ) ( ( 0.00390625 0 5.15625 ) ( 0 0.00390625 7.765625 ) ) "textures/concrete/concrete001" 0 0 0
+( 0 -1 0 1100 ) ( ( 0.00390625 0 1016.234375 ) ( 0 0.00390625 11.0625 ) ) "textures/concrete/concrete001" 0 0 0
+( -1 0 0 -1972 ) ( ( 0.00390625 0 1018.84375 ) ( 0 0.00390625 11.0625 ) ) "textures/concrete/concrete001" 0 0 0
+}
+}
+// primitive 22
+{
+brushDef3
+{
+( 0 1 0 -2412 ) ( ( 0.0625 0 194.75 ) ( 0 0.0625 243 ) ) "textures/sky01" 0 0 0
+( 1 0 0 1280 ) ( ( 0.0625 0 120.25 ) ( 0 0.0625 258.5 ) ) "textures/sky01" 0 0 0
+( 0 0 -1 -1560 ) ( ( 0.0625 0 110.75 ) ( 0 0.0625 188 ) ) "textures/sky01" 0 0 0
+( 0 -1 0 508 ) ( ( 0.0625 0 391.75 ) ( 0 0.0625 258.5 ) ) "textures/sky01" 0 0 0
+( -1 0 0 -3504 ) ( ( 0.0625 0 467 ) ( 0 0.0625 258.5 ) ) "textures/sky01" 0 0 0
+( 0 0 1 1496 ) ( ( 0.0625 0 111.75 ) ( 0 0.0625 419 ) ) "textures/sky01" 0 0 0
+}
+}
+// primitive 23
+{
+brushDef3
+{
+( 0 0 1 1560 ) ( ( 0.0625 0 108 ) ( 0 0.0625 435 ) ) "textures/sky01" 0 0 0
+( 0 1 0 -2360 ) ( ( 0.0625 0 140.5 ) ( 0 0.0625 206.5 ) ) "textures/sky01" 0 0 0
+( 1 0 0 1272 ) ( ( 0.0625 0 108 ) ( 0 0.0625 224 ) ) "textures/sky01" 0 0 0
+( 0 0 -1 -2328 ) ( ( 0.0625 0 108 ) ( 0 0.0625 141 ) ) "textures/sky01" 0 0 0
+( 0 -1 0 568 ) ( ( 0.0625 0 371.5 ) ( 0 0.0625 206.5 ) ) "textures/sky01" 0 0 0
+( -1 0 0 -1336 ) ( ( 0.0625 0 404 ) ( 0 0.0625 206.5 ) ) "textures/sky01" 0 0 0
+}
+}
+// primitive 24
+{
+brushDef3
+{
+( 0 0 1 1560 ) ( ( 0.0625 0 108 ) ( 0 0.0625 58 ) ) "textures/sky01" 0 0 0
+( 0 1 0 -2360 ) ( ( 0.0625 0 5.5 ) ( 0 0.0625 206.5 ) ) "textures/sky01" 0 0 0
+( 1 0 0 3432 ) ( ( 0.0625 0 108 ) ( 0 0.0625 224 ) ) "textures/sky01" 0 0 0
+( 0 0 -1 -2328 ) ( ( 0.0625 0 108 ) ( 0 0.0625 6 ) ) "textures/sky01" 0 0 0
+( 0 -1 0 568 ) ( ( 0.0625 0 506.5 ) ( 0 0.0625 206.5 ) ) "textures/sky01" 0 0 0
+( -1 0 0 -3496 ) ( ( 0.0625 0 404 ) ( 0 0.0625 206.5 ) ) "textures/sky01" 0 0 0
+}
+}
+// primitive 25
+{
+brushDef3
+{
+( 0 0 1 1560 ) ( ( 0 -0.0625 40.5 ) ( 0.0625 0 319.5 ) ) "textures/sky01" 0 0 0
+( -1 0 0 -3440 ) ( ( 0.0625 0 256 ) ( 0 0.0625 206.5 ) ) "textures/sky01" 0 0 0
+( 0 1 0 -576 ) ( ( 0.0625 0 40.5 ) ( 0 0.0625 224 ) ) "textures/sky01" 0 0 0
+( 0 0 -1 -2328 ) ( ( 0 0.0625 40.5 ) ( -0.0625 0 256.5 ) ) "textures/sky01" 0 0 0
+( 1 0 0 1312 ) ( ( 0.0625 0 255 ) ( 0 0.0625 206.5 ) ) "textures/sky01" 0 0 0
+( 0 -1 0 512 ) ( ( 0.0625 0 471.5 ) ( 0 0.0625 206.5 ) ) "textures/sky01" 0 0 0
+}
+}
+// primitive 26
+{
+brushDef3
+{
+( 0 0 1 1560 ) ( ( 0 -0.0625 40 ) ( 0.0625 0 204.5 ) ) "textures/sky01" 0 0 0
+( -1 0 0 -3448 ) ( ( 0.0625 0 371 ) ( 0 0.0625 206.5 ) ) "textures/sky01" 0 0 0
+( 0 1 0 -2416 ) ( ( 0.0625 0 40 ) ( 0 0.0625 224 ) ) "textures/sky01" 0 0 0
+( 0 0 -1 -2328 ) ( ( 0 0.0625 40 ) ( -0.0625 0 371.5 ) ) "textures/sky01" 0 0 0
+( 1 0 0 1320 ) ( ( 0.0625 0 140 ) ( 0 0.0625 206.5 ) ) "textures/sky01" 0 0 0
+( 0 -1 0 2352 ) ( ( 0.0625 0 472 ) ( 0 0.0625 206.5 ) ) "textures/sky01" 0 0 0
+}
+}
 }
 // entity 1
 {
@@ -302,12 +386,55 @@ brushDef3
 {
 "classname" "light"
 "name" "light_3"
-"origin" "-440 -160 76"
+"_color" "0.808 0.784 0.702"
 "light_center" "0 0 0"
 "light_radius" "160 152 156"
-"_color" "0.808 0.784 0.702"
-"parallel" "0"
-"nospecular" "0"
 "nodiffuse" "0"
 "noshadows" "0"
+"nospecular" "0"
+"origin" "-440 -160 76"
+"parallel" "0"
+}
+// entity 5
+{
+"classname" "info_portalsky"
+"name" "info_portalsky_1"
+"origin" "-2368 1496 -2224"
+"triggered" "1"
+}
+// entity 6
+{
+"classname" "light"
+"name" "light_5"
+"_color" "0.886 0.522 0.396"
+"light_center" "450 600 500"
+"light_radius" "1128 1000 580"
+"nodiffuse" "0"
+"noshadows" "0"
+"nospecular" "0"
+"origin" "-2344 1516 -1888"
+"parallel" "1"
+"texture" "lights/skylight"
+}
+// entity 7
+{
+"classname" "light"
+"name" "light_4"
+"_color" "0.169 0.157 0.224"
+"light_center" "-600 0 700"
+"light_radius" "1128 1000 580"
+"nodiffuse" "0"
+"noshadows" "1"
+"nospecular" "1"
+"origin" "-2344 1516 -1904"
+"parallel" "1"
+"texture" "lights/ambientlight"
+}
+// entity 8
+{
+"classname" "func_static"
+"name" "func_static_1"
+"origin" "272 -48 464"
+"rotation" "1 0 0 0 1 0 0 0 1"
+"model" "models/cube.ase"
 }

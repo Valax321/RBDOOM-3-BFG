@@ -219,7 +219,7 @@ typedef enum
 	TD_SHADOW_ARRAY,		// 2D depth buffer array for shadow mapping
 	TD_RGBA16F,
 	TD_RGBA32F,
-	TD_R32F,
+	TD_R32F
 	// RB end
 } textureUsage_t;
 

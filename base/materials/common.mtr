@@ -63,6 +63,23 @@ textures/common/visportal
 	noShadows
 }
 
+textures/common/portal_sky
+{
+	qer_editorimage textures/common/portal_sky.tga
+	forceOpaque
+	noShadows
+	noImpact
+
+	sort portalSky
+	{
+		map _currentRender
+		clamp
+		screen
+		translate global4 * 0.5, global5 * 0.5
+		scale global4 * 0.5, global5 * 0.5
+	}
+}
+
 
 // ##################################################################################
 
@@ -84,7 +101,8 @@ textures/common/collision
 {
 	qer_editorimage	textures/common/collision.tga
 	collision
-		noShadows
+	
+	noShadows
 }
 
 // invisible face that is solid to the player, 

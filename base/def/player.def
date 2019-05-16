@@ -13,7 +13,7 @@ entityDef player_doommarine {
    "bone_hips"	  "Legs"
    "bone_chest"	  "Torso"
    "bone_head"	  "Head"
-   
+
    "model"	"model_player"
 
     "pm_jumpheight"						"48"

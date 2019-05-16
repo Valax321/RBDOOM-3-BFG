@@ -1,0 +1,9 @@
+fogs/basicFog
+{
+    fogLight
+    noShadows
+    {
+        map _fog
+        colored
+    }
+}

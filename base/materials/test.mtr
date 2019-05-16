@@ -1,0 +1,7 @@
+textures/models/cube
+{
+    qer_editorimage textures/concrete/concrete001_diffuse.tga
+    bumpmap textures/concrete/concrete001_normal.tga
+    diffusemap textures/concrete/concrete001_diffuse.tga
+    specularmap textures/concrete/concrete001_specular.tga
+}

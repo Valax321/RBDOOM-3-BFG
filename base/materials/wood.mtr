@@ -1,0 +1,6 @@
+textures/wood/wood001
+{
+    qer_editorimage textures/wood/wood001_diffuse.tga
+    bumpmap textures/wood/wood001_normal.tga
+    diffusemap textures/wood/wood001_diffuse.tga
+}

@@ -6,3 +6,11 @@ textures/nature/sand001
     diffusemap textures/nature/Sand001_diffuse.tga
     specularmap textures/nature/Sand001_specular.tga
 }
+
+textures/nature/rock001
+{
+    qer_editorimage textures/nature/rock001_diffuse.tga
+    //bumpmap textures/nature/rock001_normal.tga
+    diffusemap textures/nature/rock001_diffuse.tga
+    specularmap textures/nature/rock001_specular.tga
+}

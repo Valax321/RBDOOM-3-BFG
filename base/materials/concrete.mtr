@@ -5,3 +5,36 @@ textures/concrete/concrete001
     diffusemap textures/concrete/concrete001_diffuse.tga
     specularmap textures/concrete/concrete001_specular.tga
 }
+
+textures/concrete/concrete002
+{
+    qer_editorimage textures/concrete/concrete002_diffuse.tga
+    bumpmap textures/concrete/concrete002_normal.tga
+    diffusemap textures/concrete/concrete002_diffuse.tga
+    specularmap textures/concrete/concrete002_specular.tga
+}
+
+textures/concrete/concrete_wall001
+{
+    qer_editorimage textures/concrete/concrete_wall001_diffuse.tga
+    bumpmap textures/concrete/concrete_wall001_normal.tga
+    diffusemap textures/concrete/concrete_wall001_diffuse.tga
+    specularmap textures/concrete/concrete_wall001_specular.tga
+}
+
+textures/concrete/concrete_floor001
+{
+    qer_editorimage textures/concrete/concrete_floor001_diffuse.tga
+    bumpmap textures/concrete/concrete_floor001_normal.tga
+    diffusemap textures/concrete/concrete_floor001_diffuse.tga
+    specularmap textures/concrete/concrete_floor001_specular.tga
+}
+
+
+//MODELS
+textures/models/mapobjects/bricks
+{
+    qer_editorimage textures/models/mapobjects/bricks/Brick_diffuse.tga
+    bumpmap textures/models/mapobjects/bricks/Brick_normal.tga
+    diffusemap textures/models/mapobjects/bricks/Brick_diffuse.tga
+}

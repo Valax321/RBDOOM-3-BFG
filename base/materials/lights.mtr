@@ -22,7 +22,7 @@ lights/skyLight
 
 lights/defaultProjectedLight
 {
-  	lightFalloffImage	_noFalloff
+  	lightFalloffImage	makeintensity(lights/spotlighta.tga)
   	{
     		forceHighQuality
     		map lights/dummy_light.tga
@@ -40,7 +40,7 @@ lights/ambientLight
   	lightFalloffImage	makeintensity( lights/dummy_lighta.tga )
   	{
     		forceHighQuality
-    		map lights/dummy_light.tga
+    		map lights/ambient_light.tga
     		colored
     		zeroClamp
   	}
